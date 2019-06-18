@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidHomeTest</string>
+    <string name="covenient_service">Dịch Vụ Tiện Ích</string>
+    <string name="discount_and_cooperate"><![CDATA[Ưu đãi & hợp tác]]></string>
+    <string name="discount_for_bank_card">Các ưu đãi cho chủ thẻ ngân hàng</string>
+    <string name="hot_key_word">Từ khóa hot</string>
+    <string name="login_note">Đăng nhập để trả nghiệm tốt nhất</string>
+    <string name="hint_search">Sản phẩm, thương hiệu và mọi thứ…</string>
+    <string name="sort">Sắp xếp:</string>
+    <string name="filter">Lọc</string>
+</resources>
