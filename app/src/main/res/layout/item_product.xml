@@ -11,10 +11,10 @@
             android:layout_height="wrap_content">
         <ImageView
                 android:id="@+id/imv_product"
-                android:layout_width="150dp"
-                android:layout_height="200dp"/>
+                android:layout_width="@dimen/image_product_width"
+                android:layout_height="@dimen/image_product_height"/>
         <LinearLayout
-                android:layout_marginLeft="@dimen/size_margin_normal"
+                android:layout_marginStart="@dimen/size_margin_normal"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -27,8 +27,7 @@
             <TextView
                     android:id="@+id/tv_name"
                     android:layout_marginBottom="@dimen/size_margin_normal"
-                    android:text="Điện thoại Nokia 230 Dual Sim - Hàng chính hãng"
-                    android:textSize="15sp"
+                    android:textSize="@dimen/text_size_product_name"
                     android:textColor="@color/color_black"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -42,17 +41,15 @@
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:text="327.000đ"
+                        android:textSize="@dimen/text_size_product_price"
                         android:textColor="@color/color_black"
                         android:layout_height="wrap_content"/>
                 <TextView
                         android:id="@+id/tv_discount"
-                        android:textSize="14sp"
+                        android:textSize="@dimen/text_size_product_discount"
                         android:layout_gravity="center"
                         android:layout_marginStart="@dimen/size_margin_short"
                         android:textColor="@color/color_black"
-                        android:text="-19%"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -71,7 +68,7 @@
                         android:layout_marginStart="3dp"
                         android:layout_gravity="center"
                         android:textColor="@color/color_green"
-                        android:text="Giao Nhanh 2h"
+                        android:textSize="@dimen/text_size_fast_delivery"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -80,7 +77,8 @@
                     android:id="@+id/tv_option_color"
                     android:layout_marginBottom="@dimen/size_margin_normal"
                     android:background="@drawable/custom_background_textview_option_color"
-                    android:text="Nhiều màu"
+                    android:text="@string/option_color"
+                    android:textSize="@dimen/text_size_option_color"
                     android:textColor="@color/color_black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -94,15 +92,14 @@
                         android:layout_gravity="center"
                         android:id="@+id/rtb_rating"
                         style="?android:attr/ratingBarStyleSmall"
-                        android:backgroundTint="#fdd835"
-                        android:progressTint="#fdd835"
+                        android:backgroundTint="@color/color_rating"
+                        android:progressTint="@color/color_rating"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 <TextView
                         android:layout_marginStart="@dimen/size_margin_short"
-                        android:textSize="13sp"
+                        android:textSize="@dimen/text_size_rating_count"
                         android:layout_gravity="center"
-                        android:text="(7)"
                         android:textColor="@color/color_gray"
                         android:id="@+id/tv_review_count"
                         android:layout_width="wrap_content"

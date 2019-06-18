@@ -14,7 +14,7 @@
         <android.support.v7.widget.Toolbar
                 app:contentInsetLeft="0dp"
                 app:contentInsetStart="0dp"
-                android:background="@color/color_main"
+                android:background="@color/colorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize">
             <RelativeLayout
@@ -120,7 +120,7 @@
                         android:id="@+id/tv_sort"
                         android:layout_gravity="center"
                         android:layout_marginLeft="5dp"
-                        android:textColor="@color/color_main"
+                        android:textColor="@color/colorPrimary"
                         android:text="Chọn lọc"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -150,7 +150,7 @@
                         android:id="@+id/tv_filter_count"
                         android:layout_gravity="center"
                         android:layout_marginLeft="5dp"
-                        android:textColor="@color/color_main"
+                        android:textColor="@color/colorPrimary"
                         android:text="(2)"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -208,7 +208,7 @@
                 <CheckBox
                         android:id="@+id/ckb_tiki_now"
                         android:layout_gravity="center"
-                        android:buttonTint="@color/color_main"
+                        android:buttonTint="@color/colorPrimary"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 

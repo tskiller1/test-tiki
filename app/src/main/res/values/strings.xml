@@ -12,4 +12,5 @@
     <string name="price">%s đ</string>
     <string name="discount">-%d%%</string>
     <string name="review_count">(%d)</string>
+    <string name="option_color">Nhiều màu</string>
 </resources>
