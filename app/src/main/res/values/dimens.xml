@@ -6,4 +6,6 @@
     <dimen name="size_margin_short">5dp</dimen>
     <dimen name="size_padding_normal">10dp</dimen>
     <dimen name="corner_radius_search">3dp</dimen>
+    <dimen name="tiki_now_width">69dp</dimen>
+    <dimen name="tiki_now_height">20dp</dimen>
 </resources>

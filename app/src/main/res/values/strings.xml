@@ -8,4 +8,8 @@
     <string name="hint_search">Sản phẩm, thương hiệu và mọi thứ…</string>
     <string name="sort">Sắp xếp:</string>
     <string name="filter">Lọc</string>
+    <string name="fast_delivery">%s %s</string>
+    <string name="price">%s đ</string>
+    <string name="discount">-%d%%</string>
+    <string name="review_count">(%d)</string>
 </resources>

@@ -3,10 +3,12 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="color_main">#1ba8ff</color>
     <color name="color_white">#FFFFFF</color>
     <color name="color_black">#000000</color>
     <color name="color_background">#F7F7F7</color>
-    <color name="color_toolbar">#1ba8ff</color>
     <color name="color_gray">#787878</color>
     <color name="color_spacing">#E6E6E6</color>
+    <color name="color_green">#26BC4E</color>
 </resources>
